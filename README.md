@@ -2,6 +2,7 @@
 framework
 
 /config/  
+/config/.env    
 /core/operater/BaseOperater.py(抽象类)  
 /core/operater/HiveOperater.py(继承)  
 /core/operater/ImpalaOperater.py  
@@ -14,3 +15,6 @@ framework
 /data_warehouse/ods/TableName.py  
 /data_warehouse/dw/TableName.py  
 ...  
+  
+## dependency
+pip install python-dotenv
