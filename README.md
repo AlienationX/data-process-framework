@@ -3,7 +3,7 @@ framework
 
 /config/  
 /config/.env   
-/config/.settings.py   
+/config/settings.py   
 /core/operater/BaseOperater.py(抽象类)  
 /core/operater/HiveOperater.py(继承)  
 /core/operater/ImpalaOperater.py  
